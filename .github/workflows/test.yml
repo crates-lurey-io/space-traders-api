@@ -48,15 +48,3 @@ jobs:
 
     - name: Test
       run: cargo just test-all
-
-    - name: Generate Coverage
-      if: matrix.os == 'ubuntu-latest'
-      run: cargo just coverage-gen
-
-    - name: Upload Coverage
-      if: matrix.os == 'ubuntu-latest'
-      uses: codecov/codecov-action@v3
-      with:
-        files: lcov.info
-        fail_ci_if_error: true
-        token: ${{ secrets.CODECOV_TOKEN }}

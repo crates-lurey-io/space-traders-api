@@ -3,7 +3,7 @@
 //! [openapi-generator]: https://github.com/OpenAPITools/openapi-generator
 
 #![allow(unused_imports)]
-#![allow(clippy::too_many_arguments)]
+#![allow(clippy::all)]
 
 extern crate reqwest;
 extern crate serde;

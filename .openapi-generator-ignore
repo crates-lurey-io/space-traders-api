@@ -7,5 +7,5 @@
 # Allow overriding the docs folder
 !docs/
 
-# Allow overriding the src folder
-!src/
+# Allow overriding the src except src/lib.rs
+!src/*/**
