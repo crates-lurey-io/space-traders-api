@@ -5,6 +5,14 @@ Generated API client for [SpaceTraders](https://spacetraders.io).
 [![Test](https://github.com/crates-lurey-io/space-traders-api/actions/workflows/test.yml/badge.svg)](https://github.com/crates-lurey-io/space-traders-api/actions/workflows/test.yml)
 [![Crates.io Version](https://img.shields.io/crates/v/space-traders-api)](https://crates.io/crates/space-traders-api)
 
+## Installing
+
+```sh
+cargo add space-traders-api
+```
+
+By default `reqwest/default-tls` is included (feature `default-tls`).
+
 ## Usage
 
 ```rust
