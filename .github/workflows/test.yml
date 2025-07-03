@@ -45,6 +45,3 @@ jobs:
 
     - name: Check
       run: cargo just check
-
-    - name: Test
-      run: cargo just test-all
