@@ -45,3 +45,6 @@ jobs:
 
     - name: Check
       run: cargo just check
+
+    - name: Run example
+      run: cargo run --example main
