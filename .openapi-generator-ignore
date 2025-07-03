@@ -1,0 +1,8 @@
+# Initially refuse anything being overriden.
+*
+
+# Allow overriding the docs folder
+!docs
+
+# Allow overriding the src folder
+!src
