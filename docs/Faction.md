@@ -1,0 +1,16 @@
+# Faction
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**symbol** | [**models::FactionSymbol**](FactionSymbol.md) |  | 
+**name** | **String** | Name of the faction. | 
+**description** | **String** | Description of the faction. | 
+**headquarters** | Option<**String**> | The waypoint in which the faction's HQ is located in. | [optional]
+**traits** | [**Vec<models::FactionTrait>**](FactionTrait.md) | List of traits that define this faction. | 
+**is_recruiting** | **bool** | Whether or not the faction is currently recruiting new agents. | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

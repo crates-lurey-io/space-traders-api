@@ -1,25 +1,14 @@
-//! Generated API client for SpaceTraders
+//! (Mostly) automatically generated API Client using [openapi-generator][].
 //!
-//! # Example
-//!
-//! ```
-//! use space-traders-api::add;
-//!
-//! assert_eq!(add(2, 3), 5);
-//! ```
+//! [openapi-generator]: https://github.com/OpenAPITools/openapi-generator
 
-// TODO: Write a library.
-#[must_use]
-pub fn add(a: i32, b: i32) -> i32 {
-    a + b
-}
+#![allow(unused_imports)]
+#![allow(clippy::too_many_arguments)]
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+extern crate reqwest;
+extern crate serde;
+extern crate serde_json;
+extern crate url;
 
-    #[test]
-    fn test_add() {
-        assert_eq!(add(2, 3), 5);
-    }
-}
+pub mod apis;
+pub mod models;

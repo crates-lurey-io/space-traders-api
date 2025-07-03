@@ -1,6 +1,6 @@
 #!/bin/sh
 
-./vendor/openapi-generator-cli generate \
+OPENAPI_GENERATOR_VERSION=7.14.0 ./vendor/openapi-generator-cli generate \
    -i vendor/SpaceTraders.json \
    -g rust \
    -o . \

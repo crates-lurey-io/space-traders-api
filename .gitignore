@@ -7,4 +7,8 @@
 /target
 
 # Open API Generator Jar
-vendor/*.Jar
+vendor/*.jar
+
+# Ignore bits that we don't want to check in from the OpenAPI generation
+.travis.yml
+git_push.sh

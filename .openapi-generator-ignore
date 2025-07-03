@@ -1,8 +1,11 @@
 # Initially refuse anything being overriden.
-*
+**
+
+# Allow overriding
+!.openapi-generator/
 
 # Allow overriding the docs folder
-!docs
+!docs/
 
 # Allow overriding the src folder
-!src
+!src/
