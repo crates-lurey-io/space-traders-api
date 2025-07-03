@@ -4,8 +4,8 @@ edition = "2024"
 license = "MIT"
 
 description = "Generated API client for SpaceTraders"
-repository = "https://github.com//space-traders-api"
-version = "0.1.0"
+repository = "https://github.com/crates-lurey-io/space-traders-api"
+version = "0.1.1"
 
 [workspace]
 members = ["tools/cargo-bin"]
